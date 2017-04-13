@@ -37,3 +37,5 @@ data with image augmentation.
 
 Each epoch spends 97s on the GTX 1060.
 
+The accuracy should be in the top 20 of Kaggle CIFAR10 competition. 
+See the score board https://www.kaggle.com/c/cifar-10/leaderboard
