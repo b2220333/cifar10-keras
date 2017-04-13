@@ -28,7 +28,7 @@ The structure of CNN:
 [FC 512 + BN + DROP 0.5]
 [FC 10]
 
-BN is the batchnormalization that regulize the input of each slice.
+BN is the batchnormalization that regulates the input of each slice.
 It can speed up the training significantly.
 
 Results:
