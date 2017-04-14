@@ -4,9 +4,9 @@ To train the model, run
 
 python train.py
 
-a training log will be save at the same time.
+a training log will be saved at the same time.
 
-The structure of CNN:
+The CNN structure is:
 
 [CONV 64 + BN + DROP 0.4]
 [CONV 64 + BN]
@@ -35,7 +35,7 @@ Results:
 After 300 epochs, this model can reach 91.5% accuracy on the validation 
 data with image augmentation.
 
-Each epoch spends 97s on the GTX 1060.
+Each epoch spends 97s on GTX 1060.
 
 The accuracy should be in the top 20 of Kaggle CIFAR10 competition. 
 See the score board https://www.kaggle.com/c/cifar-10/leaderboard
